@@ -34,7 +34,7 @@ if page == "About Project":
     ### Contact
     For inquiries, you can reach me at:
     - **Email**: ngona@charlotte.edu
-    - **GitHub Repository**: [Popcorn Picks](https://github.com/your-username/Popcorn_Picks)
+    - **GitHub Repository**: [Popcorn Picks](https://github.com/sr-dotcom/PopcornPicks)
     """)
 
 # "Home" Page
