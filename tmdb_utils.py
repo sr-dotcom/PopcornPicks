@@ -2,7 +2,7 @@ import requests
 import streamlit as st
 
 # Securely access the TMDB API key
-API_KEY = st.secrets("TMDB_API_KEY")
+API_KEY = st.secrets["TMDB_API_KEY"]
 
 if not API_KEY:
     raise ValueError("API Key not found. Please set TMDB_API_KEY in your .env file.")
