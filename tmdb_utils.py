@@ -1,16 +1,7 @@
 import requests
 import streamlit as st
 
-if "TMDB_API_KEY" in st.secrets:
-    API_KEY = st.secrets["TMDB_API_KEY"]
-else:
-    st.error("TMDB_API_KEY is missing in secrets!")
-
-# Securely access the TMDB API key
 API_KEY = st.secrets["TMDB_API_KEY"]
-
-if not API_KEY:
-    raise ValueError("API Key not found. Please set TMDB_API_KEY in your .env file.")
 
 @st.cache_data
 def fetch_movie_data(movie_name):
